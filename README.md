@@ -5,9 +5,19 @@
 -Header
 -Login Form
 -Sign up Form
+-Form Validation
+-useRef Hook
+-Firebase Setup
+-Deploying our app to production
+-create SignUp User Account
+-create SignUp User Account
+-Implement Sign In user API
+-Created Redux store with userSlice
+-Implement userSlice
+-Update Profile
 
 
--Features
+#Features
  -Login?sign Up
     -Sign In /Sign up Form
     -redirect to broweser Page
