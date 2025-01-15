@@ -28,6 +28,12 @@
 -Upadte Store for trailer Video Data
 -Embeded the Youtube video and make it
 -Tailwind Classes to make Main Container look awesome
+-Build Secoundary Container
+-build Movie List
+-Build Movie card
+-TMDB Image CDN URL
+-Made the Browse page amazing with Tailwind CSS
+-usePopularMovie Custom hook
 
 
 #Features
