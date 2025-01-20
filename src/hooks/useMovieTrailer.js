@@ -17,6 +17,8 @@ const trailerVideo = useSelector(store => store.movies.trailerVideo)
     );
     const json = await data.json();
 
+    console.log(json, "trailerVideo")
+
     const filterData = json.results.filter((video) => video.type === "Trailer");
     const trailer = filterData.length ? filterData[0] : json.results[0];
     dispatch(addTrailerVideo(trailer));

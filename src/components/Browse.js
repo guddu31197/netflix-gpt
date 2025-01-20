@@ -11,6 +11,7 @@ const Browse = () => {
 
   useNowPlayingMovies();
   usePopularMovies();
+  console.log(showGptSearch, "showGptSearch")
 
   return (
     <div>

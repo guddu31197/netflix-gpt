@@ -3,13 +3,14 @@ export const LOGO =
 
 export const USER_AVATAR =
   "https://ih0.redbubble.net/image.618427277.3222/flat,1000x1000,075,f.u2.jpg";
+  console.log(process.env.REACT_APP_TMDB_KEY, "ijsndfisjdnifsj")
 
 export const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
     Authorization:
-      "Bearer" + process.env.REACT_APP_TMDB_KEY,
+      "Bearer " + process.env.REACT_APP_TMDB_KEY,
   },
 };
 
