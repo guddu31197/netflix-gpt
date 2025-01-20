@@ -9,17 +9,21 @@ export const API_OPTIONS = {
   headers: {
     accept: "application/json",
     Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1NzI3NjY3NjIxYmU3N2QxOTVmMTg0NmE3MzZlNDk5ZCIsIm5iZiI6MTczNjYxNzMwOC4yMTQwMDAyLCJzdWIiOiI2NzgyYWQ1Yzc4Y2ZjZDc3ZWQ0ZTljMmUiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.KbsumlteoOhKuzdDnBCEeV_adw2BFbY-ZoI8b2t2FPc",
+      "Bearer" + process.env.REACT_APP_TMDB_KEY,
   },
 };
 
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
 
 export const BG_URL =
-  "https://assets.nflxext.com/ffe/siteui/vlv3/2f5a878d-bbce-451b-836a-398227a34fbf/web/IN-en-20241230-TRIFECTA-perspective_5ab944a5-1a71-4f6d-b341-8699d0491edd_large.jpg";
+  "https://handoff-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225.jpg";
 
 export const SUPPORTED_LANGUAGE = [
   { identifier: "en", name: "English" },
   { identifier: "hindi", name: "Hindi" },
   { identifier: "spanish", name: "Spanish" },
 ];
+
+export const OPENAI_KEY =
+  "process.env.REACT_APP_OPENAI_KEY"
+
